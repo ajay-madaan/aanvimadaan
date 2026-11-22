@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myth or Fact | Health Buster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">🌿 HEALTH<br>BUSTER</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="myth.html">Myth or Fact?</a>
+        <a href="health-tips.html">Health Tips</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <form class="google-search">
+        <input name="q" type="search" placeholder="Search Google...">
+        <button type="submit">🔍</button>
+    </form>
+</header>
+
+<main class="myth-page">
+    <a href="index.html" class="back">← Back to Home</a>
+
+    <h1 class="page-heading">
+        <span class="red">Myth</span> or
+        <span class="green">Fact?</span>
+    </h1>
+
+    <p class="subtitle">
+        Enter a health myth below and let's find out the truth!
+    </p>
+
+    <form id="mythForm" class="myth-form">
+        <input
+            id="mythInput"
+            type="search"
+            placeholder="e.g. Drinking cold water causes a cold..."
+            required>
+        <button type="submit">Check →</button>
+    </form>
+
+    <div id="mythResult" class="result-box" aria-live="polite"></div>
+
+    <section class="popular">
+        <h2>💡 Popular Myths to Try:</h2>
+        <div class="myth-buttons">
+            <button type="button" data-myth="Eating sugar causes hyperactivity">
+                Eating sugar causes hyperactivity
+            </button>
+            <button type="button" data-myth="You can't exercise during your period">
+                You can't exercise during your period
+            </button>
+            <button type="button" data-myth="More protein means more muscles">
+                More protein means more muscles
+            </button>
+            <button type="button" data-myth="Drinking cold water causes a cold">
+                Drinking cold water causes a cold
+            </button>
+        </div>
+    </section>
+
+    <div class="slogan">
+        Question it. Check it. <b>Bust it!</b>
+    </div>
+</main>
+
+<footer>© 2026 Health Buster</footer>
+<script src="script.js"></script>
+</body>
+</html>
