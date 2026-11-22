@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Health Buster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+    <a href="index.html" class="logo">🌿 HEALTH<br>BUSTER</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="myth.html">Myth or Fact?</a>
+        <a href="health-tips.html">Health Tips</a>
+        <a href="about.html">About Us</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+    <form class="google-search">
+        <input name="q" type="search" placeholder="Search Google...">
+        <button type="submit">🔍</button>
+    </form>
+</header>
+
+<main class="content-page">
+    <h1>📩 Contact Us</h1>
+    <p>Have a question, suggestion or health myth to share?</p>
+    <p>We would love to hear from you!</p>
+
+    <form class="contact-form" id="contactForm">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5"
+            placeholder="Write your message..." required></textarea>
+
+        <button type="submit" class="green-btn">Send Message →</button>
+        <p id="contactStatus" aria-live="polite"></p>
+    </form>
+</main>
+
+<footer>© 2026 Health Buster</footer>
+<script src="script.js"></script>
+</body>
+</html>

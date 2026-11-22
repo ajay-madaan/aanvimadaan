@@ -1,35 +1,85 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Aanvi's Website</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            background-color: lightblue;
-            padding: 50px;
-        }
-
-        h1 {
-            color: darkblue;
-        }
-
-        button {
-            padding: 12px 25px;
-            background: blue;
-            color: white;
-            border: none;
-            border-radius: 8px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Buster | Question It. Check It. Bust It!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <h1>Welcome to Aanvi's website</h1>
+<header class="navbar">
+    <a href="index.html" class="logo">
+        🌿 HEALTH<br>BUSTER
+    </a>
 
-    <button>Click Me</button>
+    <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="myth.html">Myth or Fact?</a>
+        <a href="health-tips.html">Health Tips</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
+    <form class="google-search">
+        <input name="q" type="search" placeholder="Search Google...">
+        <button type="submit">🔍</button>
+    </form>
+
+    <a href="health-tips.html" class="stay-btn">♡ Stay Healthy</a>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Think it's true?</h2>
+            <h1>Think again!</h1>
+            <h2 class="big-title">HEALTH BUSTER</h2>
+            <p>Discover the truth behind everyday health myths.</p>
+            <p>Bust misconceptions and build a <b>healthier you!</b></p>
+        </div>
+        <div class="hero-art">🧑🏻‍⚕️</div>
+        <div class="stamp">MYTH<br>OR<br>FACT?</div>
+    </section>
+
+    <section class="feature-grid">
+        <div class="feature myth-card">
+            <div class="feature-icon">🔎</div>
+            <div>
+                <h2>Myth or Fact?</h2>
+                <p>Check whether what you believe is TRUE or FALSE!</p>
+                <a href="myth.html" class="orange-btn">BUST A MYTH →</a>
+            </div>
+        </div>
+
+        <div class="feature tips-card">
+            <div class="feature-icon">💡</div>
+            <div>
+                <h2>Health Tips</h2>
+                <p>Explore simple tips for a healthier everyday life!</p>
+                <a href="health-tips.html" class="green-btn">EXPLORE TIPS →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="health-strip">
+        <span>🍎 Eat Healthy</span>
+        <span>🏋️ Stay Active</span>
+        <span>🧠 Support Mental Health</span>
+        <span>🛏️ Get Good Sleep</span>
+        <span>💧 Drink Water</span>
+    </section>
+
+    <section class="slogan">
+        Question it. Check it. <b>Bust it!</b>
+    </section>
+</main>
+
+<footer>
+    © 2026 Health Buster | Stay Healthy, Stay Informed!
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
