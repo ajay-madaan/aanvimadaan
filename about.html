@@ -6,6 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | Health Buster</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 22px;
+            margin-top: 22px;
+        }
+        .team-member {
+            text-align: center;
+            padding: 18px;
+            border: 1px solid #e2eadf;
+            border-radius: 14px;
+            background: #f8fbf6;
+        }
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 14px;
+            background: #e5eee2;
+        }
+        .team-member h3 {
+            margin: 8px 0 5px;
+        }
+        .team-member p {
+            margin: 6px 0;
+        }
+        .team-member .team-role {
+            font-weight: 600;
+            color: #47764a;
+        }
+    </style>
+
 </head>
 <body>
 <header class="navbar">
@@ -31,6 +67,36 @@
         Welcome to Health Buster, a health awareness website
         designed to make health information easier to understand.
     </p>
+
+
+    <section class="info-card team-section">
+        <h2>👥 Meet Our Team</h2>
+        <p>Meet the people behind Health Buster!</p>
+
+        <div class="team-grid">
+            <!-- Copy a team-member card below to add more members -->
+            <div class="team-member">
+                <img src="images/team-member-1.jpg" alt="Team member 1">
+                <h3>Team Member Name</h3>
+                <p class="team-role">Role / Designation</p>
+                <p>A short introduction about this team member.</p>
+            </div>
+
+            <div class="team-member">
+                <img src="images/team-member-2.jpg" alt="Team member 2">
+                <h3>Team Member Name</h3>
+                <p class="team-role">Role / Designation</p>
+                <p>A short introduction about this team member.</p>
+            </div>
+
+            <div class="team-member">
+                <img src="images/team-member-3.jpg" alt="Team member 3">
+                <h3>Team Member Name</h3>
+                <p class="team-role">Role / Designation</p>
+                <p>A short introduction about this team member.</p>
+            </div>
+        </div>
+    </section>
 
     <section class="info-card">
         <h2>🎯 Our Mission</h2>
